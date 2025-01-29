@@ -6,7 +6,7 @@
  * Marcelo Detlefsen - 24554
  * Denil Parada - -----
  * Arodi Chavez - -----
- * Fecha: 23/01/2025
+ * Fecha: 30/01/2025
  * Descripción: Interfaz que define métodos para manejar un sistema que incluye push, pop, peek, empty y size.
  */
 
