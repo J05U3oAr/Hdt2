@@ -14,7 +14,15 @@ import java.util.Scanner;
 
 public class Calculadora
 {
-    private Stack<Integer> stack;
+    Stack<Integer> stack = new StackVector<Integer>();
+
+    public Stack<Integer> getStack(){
+        return stack;
+    }
+
+    public void setStack(Stack<Integer> stack){
+        this.stack = stack;
+    }
 
     // Constructor
     public Calculadora() 
