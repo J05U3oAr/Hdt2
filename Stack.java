@@ -4,8 +4,8 @@
  * Ing. Douglas Barrios
  * Colaboradores: 
  * Marcelo Detlefsen - 24554
- * Denil Parada - -----
- * Arodi Chavez - -----
+ * Denil Parada - 24761
+ * Arodi Chavez - 241112
  * Fecha: 30/01/2025
  * Descripción: Interfaz que define métodos para manejar un sistema que incluye push, pop, peek, empty y size.
  */
