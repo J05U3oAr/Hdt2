@@ -4,8 +4,8 @@
  * Ing. Douglas Barrios
  * Colaboradores: 
  * Marcelo Detlefsen - 24554
- * Denil Parada - -----
- * Arodi Chavez - -----
+ * Denil Parada - 24761
+ * Arodi Chavez - 241112
  * Fecha: 30/01/2025
  * Descripción: -----
  */
@@ -14,7 +14,15 @@ import java.util.Scanner;
 
 public class Calculadora
 {
-    private Stack<Integer> stack;
+    Stack<Integer> stack = new StackVector<Integer>();
+
+    public Stack<Integer> getStack(){
+        return stack;
+    }
+
+    public void setStack(Stack<Integer> stack){
+        this.stack = stack;
+    }
 
     // Constructor
     public Calculadora() 
