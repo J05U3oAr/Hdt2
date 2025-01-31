@@ -13,7 +13,7 @@
 
 import java.util.Scanner;
 
-public class Calculadora {
+public class Calculadora implements Interfaz {
     
     /**
      * Pila que almacena los operandos durante la evaluación de la expresión.
@@ -55,6 +55,7 @@ public class Calculadora {
     * @return El resultado de la evaluación de la expresión.
     * @throws IllegalArgumentException Si la expresión es inválida o incompleta.
     */
+    @Override
     public int evaluar(String operacion) {
         @SuppressWarnings("resource") // Se suprime el warning relacionado con Scanner no cerrado
         Scanner scanner = new Scanner(operacion);
@@ -92,7 +93,8 @@ public class Calculadora {
     * @throws ArithmeticException Si se intenta realizar una división por cero.
     * @throws IllegalArgumentException Si el operador es desconocido.
     */
-    private int operar(int operandoA, int operandoB, String operador) {
+    @Override
+    public int operar(int operandoA, int operandoB, String operador) {
         switch (operador) {
             case "+": return operandoA + operandoB;
             case "-": return operandoA - operandoB;
